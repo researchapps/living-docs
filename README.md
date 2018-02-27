@@ -28,13 +28,13 @@ var github = "https://www.github.com/researchapps/living-docs"
 ```
 
 ## Jekyll Solution
-To see the jekyll solution, browse to [https://researchapps.github.io/living-docs/jekyll](https://researchapps.github.io/living-docs/jekyll). This is a very simple site that has minimal configuration, so we just use a global Github pages theme. This is in the `_config.yaml`, and you should edit these fields appropriately:
+To see the jekyll solution, browse to [https://researchapps.github.io/living-docs/](https://researchapps.github.io/living-docs/). This is a very simple site that has minimal configuration, so we just use a global Github pages theme. This is in the `_config.yaml`, and you should edit these fields appropriately:
 
 ```
 title: "Living Documentation"
 description: docs with easy to click edit buttons
 url: https://researchapps.github.io/living-docs
-repo: http://github.com/researchapps/living-docs
+repo: https://github.com/researchapps/living-docs
 theme: jekyll-theme-minimal
 ```
 
