@@ -7,19 +7,3 @@ permalink   : /:year/:title/
 markdown    : kramdown
 
 theme: jekyll-theme-cayman
-gem "github-pages", group: :jekyll_plugins
-
-defaults:
-    -
-        scope:
-            path: "" # empty string for all files
-            type: pages
-        values:
-            layout: page
-    -
-        scope:
-            path: "" # empty string for all files
-            type: posts
-        values:
-            layout: post
-            comments: true
