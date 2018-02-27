@@ -3,6 +3,8 @@ title: "Living Documentation"
 editable: question
 ---
 
+{% include editable.html %}
+
 # Living Documentation
 
 If you are a researcher with some code and you care about reproducibility, you probably use <a href="https://www.github.com" target="_blank">version control like Github</a>.  If you go out of your way to write a README file, a quick description of how
