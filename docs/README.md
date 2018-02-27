@@ -1,6 +1,5 @@
 ---
 title: "Living Documentation"
-permalink: /
 editable: question
 ---
 
