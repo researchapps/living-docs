@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    var github = "https://www.github.com/researchapps/living-docs"
     var divs = $("#h1,h2,h3,h4"); 
     $.each(divs, function(i,e){
 
@@ -8,17 +9,17 @@ $(document).ready(function() {
         var start = "<div class='dropdown more'><span><i class='fa fa-ellipsis-h more' title='Edit'></i></span><div class='dropdown-content'>";
 
         // Permalink
-        var link = "{{ site.url }}/{{ page.url }}#" + did;
+        var link = "#" + did;
         var button = "<p><a href='" + link + "' target='_blank'>Permalink</a></p>";
         start += button;
 
         // Edit
-        var link = "{{ site.repo }}/edit/master/{{ page.path }}#" + did;
+        var link = github + "/#" + did;
         var button = "<p><a href='" + link + "' target='_blank'>Edit this page</a></p>";
         start += button;
 
         // Issues;
-        var link = "{{ site.repo }}/issues/new?labels={% if page.editable %}{{ page.editable }}{% else %}question{% endif %}&title=Question:&body=Question on: {{ site.repo }}/tree/master/{{ page.path }}%23" + did;
+        var link = github + "/issues/new?labels=question&title=Question:&body=Question on: " + github + "/tree/master/docs/README.md%23" + did;
 
         var button = "<p><a href='" + link + "' target='_blank'>Ask a Question</a></p>";
         start += button;
