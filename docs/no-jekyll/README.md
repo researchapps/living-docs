@@ -1,11 +1,3 @@
----
-title: "Living Documentation"
-layout: page
-permalink: /
-date: 2018-2-28 5:11:53
-editable: question
----
-
 # Living Documentation
 
 If you are a researcher with some code and you care about reproducibility, you probably use <a href="https://www.github.com" target="_blank">version control like Github</a>.  If you go out of your way to write a README file, a quick description of how
@@ -56,6 +48,18 @@ if you are publishing software with your work, you are already winning if you us
 
    - Add a README.md like this one to explain how to install and use your software. A cute picture or logo makes it more fun, or a science cartoon. You can put it in a subfolder, docs, to sit alongside your code.
    - Create a folder called "docs" in your repository, and start writing files! In your repository settings you can turn on Github pages, and it will render from this folder to `https://<username>.github.io/<reponame>`.
-   - Add the files here in your docs folder, and edit the `_config.yml` for your repository.
+   - Add the files [livings-docs.js](living-docs.js) and [living-docs.css](living-docs.css) to the same folder, and include them in your markdown files like this:
+
+```
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="living-doc.js"></script>
+<link rel="stylesheet" href="living-doc.css">
+```
 
 Do you want help? Reach out to me, or <a href="https://twitter.com/StanfordCompute" target="_blank">StanfordCompute</a> and we will help you with your living documentation, in the name of reproducible, fun, and (beautiful) science! Document on, friends!
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="living-doc.js"></script>
+<link rel="stylesheet" href="living-doc.css">
