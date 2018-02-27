@@ -28,5 +28,20 @@ var github = "https://www.github.com/researchapps/living-docs"
 ```
 
 ## Jekyll Solution
-Do the same as above, except start with the content of docs-jekyll. The files mentioned
-previously are included in the `_includes` folder and the main site template under `_layouts/post.html`.
+To see the jekyll solution, browse to [https://researchapps.github.io/living-docs/jekyll](https://researchapps.github.io/living-docs/jekyll). This is a very simple site that has minimal configuration, so we just use a global Github pages theme. This is in the `_config.yaml`, and you should edit these fields appropriately:
+
+```
+title: "Living Documentation"
+description: docs with easy to click edit buttons
+url: https://researchapps.github.io/living-docs
+repo: http://github.com/researchapps/living-docs
+theme: jekyll-theme-minimal
+```
+
+And then in each page that you want to render the dropdown helpers, add the following:
+
+```
+{% include editable.html %}
+```
+
+This referes to a file called `_includes/editable.html`. You can do the same as above with respect to cloning and copying files, but do so for the content of docs and feel free to ignore the docs/no-jekyll folder.
