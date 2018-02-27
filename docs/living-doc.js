@@ -14,7 +14,7 @@ $(document).ready(function() {
         start += button;
 
         // Edit
-        var link = github + "/#" + did;
+        var link = github + "/tree/master/edit/#" + did;
         var button = "<p><a href='" + link + "' target='_blank'>Edit this page</a></p>";
         start += button;
 
