@@ -1,8 +1,6 @@
 ---
 title: "Living Documentation"
-layout: page
 permalink: /
-date: 2018-2-28 5:11:53
 editable: question
 ---
 

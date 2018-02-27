@@ -2,8 +2,4 @@ title: "Living Documentation"
 description: docs with easy to click edit buttons
 url: https://researchapps.github.io/living-docs
 repo: http://github.com/researchapps/living-docs
-
-permalink   : /:year/:title/
-markdown    : kramdown
-
 theme: jekyll-theme-minimal
